@@ -1,4 +1,6 @@
 import 'package:example_writer/animated_container_example.dart';
+import 'package:example_writer/animated_opacity_example.dart';
+import 'package:example_writer/opacity_example.dart';
 import 'package:example_writer/wrap_example.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AnimatedContainerExample(),
+      home: const AnimatedOpacityExample(),
     );
   }
 }
