@@ -7,6 +7,8 @@
   Just wrap the Scaffold body with the SafeArea widget and you can enjoy the added safety. Additionally you can specify the directions in which the SafeArea Widget should apply the proper padding by setting the top, bottom, left, and right argument to either true or false.
 
 - ## Code Example:
+  [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/safearea_example.dart)
+
       import 'package:flutter/material.dart';
 
       class SomeScreen extends StatelessWidget {

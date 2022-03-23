@@ -11,6 +11,8 @@
     Specifiy a starting value for the property you want to animate over. It works with a bunch of different properties like color, alignment, borderradius, etc. Then change the starting value and call setState and watch the magic happen. Additionally you can specify the duration of the animation as well as the curve to use.
 
 - ## Example Code:
+  [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/animated_container_example.dart)
+
       import 'package:flutter/material.dart';
 
       class AnimatedContainerExample extends StatefulWidget {
