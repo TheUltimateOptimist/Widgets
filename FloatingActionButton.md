@@ -14,7 +14,7 @@
   FloatingActionButton. Moreover you can embed the FloatingActionButton into your BottomNavigationBar using FloatingActionButtonLocation.endDocked for example.
 
 - ## Example Code: 
-  [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/fade_transition_example.dart)
+  [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/floating_action_button_example.dart)
 
       import 'dart:math';
 
