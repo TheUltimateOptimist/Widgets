@@ -1,4 +1,4 @@
-# Fade Transition
+# Floating Action Button
 
 - ## What it does:
   The FloatingActionButton widget displays an ActionButton at the lower end of the screen, on top of all the other content of the screen
