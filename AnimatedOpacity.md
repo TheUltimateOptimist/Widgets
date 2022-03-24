@@ -6,7 +6,7 @@
 - ## How it works:
   Just wrap the widget whose opacity you want to change with the AnimatedOpacity widget and specify a duration for the animation as well as a double value for the opacity between 0.0 and 1.0. Change this opacity value somewhere else in the code, call setState and enjoy the animation.
 
-- ## Code Example:
+- ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/animated_opacity_example.dart)
 
       import 'package:flutter/material.dart';

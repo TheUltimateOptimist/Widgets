@@ -10,7 +10,7 @@
   - ### b) in code:
     Just wrap the widget you want to make stretch along all of the available space with the Expanded widget. You can also set the flex factor, which will have an affect in the event of competition. For example if there are two Expanded widgets in one row, the first having a flex factor of 2 and the second a flex factor of 1, the first one will receive twice as much space as the second one.
     
-- ## Code Example:
+- ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/expanded_example.dart)
 
       import 'package:flutter/material.dart';

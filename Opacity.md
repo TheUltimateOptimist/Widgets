@@ -7,7 +7,7 @@
   Just wrap widget whose opactiy you want to change with the Opacity widget and
   specify a double between 0.0 and 1.0 for the opacity.
 
-- ## Code Example:
+- ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/opacity_example.dart)
 
       import 'package:flutter/material.dart';
