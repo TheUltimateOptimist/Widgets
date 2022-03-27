@@ -21,9 +21,6 @@ testFunction(String functionName, List<void Function(String name)> testCases){
   }
 }
 
-testClass(){
-  
-}
 
 class TestCase{
   final String inputDescription;
