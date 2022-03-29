@@ -8,7 +8,7 @@
 
 - ## Configurations:
   - FloatingAppBar   
-    Makes the SliverAppBar appear again as soon as the user scrolls back again no matter how far he has scrolled before. Set the floating attribute to true.
+    Setting the floating attribute to true makes the SliverAppBar appear again as soon as the user scrolls back no matter how far he has scrolled before.
   - Always show elevation AppBar   
     Normally the SliverAppBar's elvation is only applied if slivers are being scrolled beneath it. To always show elevation set forceElevation to true.
   - Always visible AppBar   
