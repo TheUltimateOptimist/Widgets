@@ -6,7 +6,8 @@ import 'package:example_writer/future_builder_example.dart';
 import 'package:example_writer/opacity_example.dart';
 import 'package:example_writer/pageview_example.dart';
 import 'package:example_writer/sliver_app_bar_example.dart';
-import 'package:example_writer/sliver_list_exampl.dart';
+import 'package:example_writer/sliver_grid_example.dart';
+import 'package:example_writer/sliver_list_example.dart';
 import 'package:example_writer/table_example.dart';
 import 'package:example_writer/wrap_example.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SliverListExample(),
+      home: const SliverGridExample(),
     );
   }
 }
