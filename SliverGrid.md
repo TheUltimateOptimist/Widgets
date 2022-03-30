@@ -13,7 +13,7 @@
     The SliverGrid.extent() constructor needs to be given a maxCrossAxisExtent and a list of children. It has the same effect as giving the normal SliverGrid a SliverChildListDelegate and a SliverGridDelegateWithMaxCrossAxisExtent
   
 - ## Example Code:
-  [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/sliver_list_example.dart)
+  [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/sliver_grid_example.dart)
 
       import 'package:flutter/material.dart';
 
