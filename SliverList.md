@@ -1,4 +1,4 @@
-# SliverAppBar
+# SliverList
 
 - ## What it does:
   A SliverList is comparable to the normal ListView but is a sliver and can therefore be added to the list of slivers of a CustomScrollView. As a result the SliverList shines when you want to achieve custom scrolling like for example combining a List with a Grid in one ScrollView.
