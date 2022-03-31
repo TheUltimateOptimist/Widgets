@@ -1,7 +1,7 @@
 # FadeInImage
 
 - ## What it does:
-  A FadeInImage widget lets you show a PlaceHoderImage while the actual image is being loaded. It also lets you control the animation used when switching between these two images.
+  A FadeInImage widget lets you show a place holder image while the actual image is being loaded. It also lets you control the animation used when switching between these two images.
 
 - ## How it works:
   Create a FadeInImage widget using either the FadeInImage.assetNetwork() or the FadeInImage.memoryNetwork() constructor. Both constructors need a url as their image attribute. This url specifys from where the final image should be laoded. The FadeInImage.assetNetwork() constructor also needs the assetPath of the placeholder image as its placeholder attribute whereas the FadeInImage.memoryNetwork() constructor needs a Unit8List representation of the placeholder image to display. Added to that both constructors let you specify attributes like fadeInDuration, fadeOutDuration, fadeInCurve, fadeOutCurve.
