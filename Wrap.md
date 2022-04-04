@@ -1,7 +1,7 @@
 # Wrap
 
 - ## What it does:
-  the Wrap widget lays out its children one after the other, but if it runs out of space it just wraps to the next line. It is very much like a column or row only that it jumps to next line if it runs out of space.
+  The Wrap widget lays out its children one after the other, but if it runs out of space it just wraps to the next line. It is very much like a column or row only that it jumps to next line if it runs out of space.
 
 - ## How it works:
   Just wrap any number of widgets with Wrap and they will be layed out along the axis of the given direction jumping to the next line if there is no space left. To get an overview of all of the additional arguments that can be specified take a look at the code example.
