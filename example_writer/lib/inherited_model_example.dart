@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class InheritedWidgetExample extends StatefulWidget {
-  const InheritedWidgetExample({Key? key}) : super(key: key);
+class InheritedModelExample extends StatefulWidget {
+  const InheritedModelExample({Key? key}) : super(key: key);
 
   @override
-  State<InheritedWidgetExample> createState() => _InheritedWidgetExampleState();
+  State<InheritedModelExample> createState() => _InheritedModelExampleState();
 }
 
-class _InheritedWidgetExampleState extends State<InheritedWidgetExample> {
+class _InheritedModelExampleState extends State<InheritedModelExample> {
   int number = 0;
 
   void incremenNumber() {
@@ -38,7 +38,7 @@ class CounterText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(MyData.of(context).number.toString());
+    return Text(MyData.of(context, "counter").number.toString());
   }
 }
 
@@ -49,7 +49,7 @@ class IncrementButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () {
-        MyData.of(context).incrementNumber();
+        MyData.of(context, "").incrementNumber();
       },
       child: const Text(
         "Add one",
@@ -58,7 +58,7 @@ class IncrementButton extends StatelessWidget {
   }
 }
 
-class MyData extends InheritedWidget {
+class MyData extends InheritedModel<String> {
   const MyData(
       {required final Widget child,
       this.number = 0,
@@ -72,17 +72,23 @@ class MyData extends InheritedWidget {
   final void Function() incrementNumber;
   final int number;
 
+  static MyData of(BuildContext context, [String? aspect]) {
+    final MyData? result = InheritedModel.inheritFrom(context, aspect: aspect);
+    assert(result != null, "No MyData found in this BuildContext");
+    return result!;
+  }
+
   @override
   bool updateShouldNotify(covariant InheritedWidget oldWidget) {
-    if ((oldWidget as MyData).number != number) {
+    return true;
+  }
+
+  @override
+  bool updateShouldNotifyDependent(
+      covariant InheritedModel<String> oldWidget, Set<String> dependencies) {
+    if (dependencies.contains("counter")) {
       return true;
     }
     return false;
-  }
-
-  static MyData of(BuildContext context) {
-    final MyData? result = context.dependOnInheritedWidgetOfExactType<MyData>();
-    assert(result != null, "No MyData found in this BuildContext");
-    return result!;
   }
 }
