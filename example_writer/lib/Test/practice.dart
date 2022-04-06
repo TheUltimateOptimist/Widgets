@@ -16,7 +16,7 @@ int addInts(int a, int b) {
   return a + b;
 }
 
-testFunction(String functionName, List<void Function(String name)> testCases) {
+testMethod(String functionName, List<void Function(String name)> testCases) {
   for (var testCase in testCases) {
     testCase(functionName);
   }
