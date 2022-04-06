@@ -54,7 +54,6 @@ class SliverAppBarExample extends StatelessWidget {
         backgroundColor: Colors.green,
         stretch: true,
         onStretchTrigger: () async {
-          print("Overstretched");
         },
       );
     }

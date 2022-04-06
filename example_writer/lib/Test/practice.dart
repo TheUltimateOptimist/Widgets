@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:test/test.dart';
 
 void main(List<String> args) {
@@ -8,7 +6,6 @@ void main(List<String> args) {
   //   testInput("uneven numbers", addInts(3,5), equals(8))
   // ]);
   count().listen((value) {
-    print(value);
   });
 }
 

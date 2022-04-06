@@ -40,7 +40,9 @@ class _FadeTransitionExampleState extends State<FadeTransitionExample>
             if(_controller.value.round() == 0){
               _controller.forward();
             }
-            else _controller.animateBack(0.0);
+            else {
+              _controller.animateBack(0.0);
+            }
           },
             child: Container(
               height: 100,
