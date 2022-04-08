@@ -1,4 +1,4 @@
-# FutureBuilder
+# Tooltip
 
 - ## What it does:
   If a widget is wrapped in a tooltip a small description message will be show if it is tapped or long-pressed. Tooltips are also used by screen-readers.
