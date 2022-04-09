@@ -4,6 +4,7 @@ import 'package:example_writer/animated_opacity_example.dart';
 import 'package:example_writer/clip_r_rect_example.dart';
 import 'package:example_writer/fade_in_image_example.dart';
 import 'package:example_writer/fade_transition_example.dart';
+import 'package:example_writer/fitted_box_example.dart';
 import 'package:example_writer/floating_action_button_example.dart';
 import 'package:example_writer/future_builder_example.dart';
 import 'package:example_writer/hero_example.dart';
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
       title: 'Widgets',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-      ),home: const TooltipExample(),
+      ),home: const FittedBoxExample(),
     );
   }
 }
