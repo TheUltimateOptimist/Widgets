@@ -7,4 +7,21 @@ available Widgets is a Gamechanger when developing with Flutter.
 ## What is this repository all about?
 This repository presents a bunch of flutter widgets providing a short explanation and a code example for each.
 
+## Covered Widgets:
+- ### total: 24
+- ### Accessibility
+  - []()
+- ### Animation and Motion
+- ### Assets, Images, Icons
+- ### Async
+- ### Cupertino
+- ### Input
+- ### Interaction Models
+- ### Layout
+- ### Material Components
+- ### Painting and effects
+- ### Scrolling
+- ### Styling
+- ### Text
+
 
