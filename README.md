@@ -116,7 +116,7 @@ This repository presents a bunch of flutter widgets providing a short explanatio
     - [Flow](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
     - [GridView](https://github.com/TheUltimateOptimist/Widgets/blob/master/GridView.md)
     - [IndexedStack](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
-    - [LayoutBuilder](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
+    - [LayoutBuilder](https://github.com/TheUltimateOptimist/Widgets/blob/master/LayoutBuilder.md)
     - [ListBody](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
     - [ListView](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
     - [Row](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
