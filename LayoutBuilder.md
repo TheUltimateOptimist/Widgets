@@ -7,7 +7,7 @@
   Create a LayoutBuilder and supply it with a `builder` function that takes the `context` and `constraints` and returns the Widget to be build.
 
 - ## Example Code:
-  [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/tooltip_example.dart)
+  [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/layout_builder_example.dart)
 
   ```
   import 'package:flutter/material.dart';
