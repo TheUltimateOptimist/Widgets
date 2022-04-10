@@ -8,7 +8,7 @@ available Widgets is a Gamechanger when developing with Flutter.
 This repository presents a bunch of flutter widgets providing a short explanation and a code example for each.
 
 ## Widget catalog:
-- ### total covered: 24
+- ### total covered: 25
 - ### Accessibility
   - [ExcludeSemantics](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
   - [MergeSemantics](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
