@@ -1,4 +1,5 @@
 // ignore_for_file: unused_import
+import 'package:example_writer/absorb_pointer_example.dart';
 import 'package:example_writer/animated_container_example.dart';
 import 'package:example_writer/animated_opacity_example.dart';
 import 'package:example_writer/clip_r_rect_example.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
       title: 'Widgets',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-      ),home: const LayoutBuilderExample(),
+      ),home: const AbsorbPointerExample(),
     );
   }
 }
