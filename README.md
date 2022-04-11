@@ -76,7 +76,7 @@ This repository presents a bunch of flutter widgets providing a short explanatio
   - [RawKeyboardListener](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
 - ### Interaction Models
   - #### Touch interactions
-    - [AbsorbPointer](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
+    - [AbsorbPointer](https://github.com/TheUltimateOptimist/Widgets/blob/master/AbsorbPointer.md)
     - [Dismissible](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
     - [DragTarget](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
     - [Draggable](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
