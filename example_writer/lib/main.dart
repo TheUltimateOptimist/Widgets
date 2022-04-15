@@ -20,6 +20,7 @@ import 'package:example_writer/sliver_list_example.dart';
 import 'package:example_writer/stream_builder_example.dart';
 import 'package:example_writer/table_example.dart';
 import 'package:example_writer/tooltip_example.dart';
+import 'package:example_writer/transform_example.dart';
 import 'package:example_writer/wrap_example.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
       title: 'Widgets',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-      ),home: const AbsorbPointerExample(),
+      ),home: const TransformExample(),
     );
   }
 }
