@@ -184,7 +184,7 @@ This repository presents a bunch of flutter widgets providing a short explanatio
     - [ListTile](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
     - [Stepper](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
 - ### Painting and effects
-  - [BackDropFilter](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
+  - [BackDropFilter](https://github.com/TheUltimateOptimist/Widgets/blob/master/BackdropFilter.md)
   - [ClipOval](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
   - [ClipPath](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
   - [ClipRect](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
