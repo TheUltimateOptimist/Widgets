@@ -91,7 +91,7 @@ This repository presents a bunch of flutter widgets providing a short explanatio
     - [Navigator](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
 - ### Layout
   - #### Single-Child layout widgets
-    - [Align](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
+    - [Align](https://github.com/TheUltimateOptimist/Widgets/blob/master/Align.md)
     - [AspectRatio](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
     - [Baseline](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
     - [Center](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
