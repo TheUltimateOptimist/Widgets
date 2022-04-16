@@ -43,9 +43,8 @@ class BackdropFilterExample extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     final Float64List matrix = Float64List(16);
-    Matrix4.translationValues(10,10,0).copyIntoArray(matrix);
+    Matrix4.translationValues(10, 10, 0).copyIntoArray(matrix);
 
     return Scaffold(
       body: Center(
@@ -64,8 +63,31 @@ class BackdropFilterExample extends StatelessWidget {
                 inner: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
               ),
             ),
-            FilterBox(
-              filter: ImageFilter.matrix(matrix),
+            Row(
+              children: [
+                ClipRect(
+                  child: SizedBox(
+                    height: 130,
+                    width: 130,
+                    child: Center(
+                      child: Container(
+                        color: Colors.black,
+                        height: 100,
+                        width: 100,
+                        child: BackdropFilter(
+                          filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
+                          child: Container(
+                            color: Colors.black.withOpacity(0),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                FilterBox(
+                  filter: ImageFilter.matrix(matrix),
+                ),
+              ],
             ),
           ],
         ),
