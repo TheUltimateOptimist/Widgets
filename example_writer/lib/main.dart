@@ -16,6 +16,7 @@ import 'package:example_writer/inherited_widget.example.dart';
 import 'package:example_writer/layout_builder_example.dart';
 import 'package:example_writer/opacity_example.dart';
 import 'package:example_writer/pageview_example.dart';
+import 'package:example_writer/positioned_example.dart';
 import 'package:example_writer/sliver_app_bar_example.dart';
 import 'package:example_writer/sliver_grid_example.dart';
 import 'package:example_writer/sliver_list_example.dart';
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
       title: 'Widgets',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-      ),home: const AlignExample(),
+      ),home: const PositionedExample(),
     );
   }
 }
