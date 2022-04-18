@@ -8,7 +8,7 @@ available Widgets is a Gamechanger when developing with Flutter.
 This repository presents a bunch of flutter widgets providing a short explanation and a code example for each.
 
 ## Widget catalog:
-- ### total covered: 25
+- ### total covered: 28
 - ### Accessibility
   - [ExcludeSemantics](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
   - [MergeSemantics](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
@@ -31,6 +31,7 @@ This repository presents a bunch of flutter widgets providing a short explanatio
   - [FadeTransition](https://github.com/TheUltimateOptimist/Widgets/blob/master/FadeTransition.md)
   - [Hero](https://github.com/TheUltimateOptimist/Widgets/blob/master/Hero.md)
   - [PositionedTransition](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
+  - [RepaintBoundary](https://github.com/TheUltimateOptimist/Widgets/blob/master/RepaintBoundary.md)
   - [RotationTransition](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
   - [ScaleTransition](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
   - [SizeTransition](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
