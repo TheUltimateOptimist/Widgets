@@ -17,6 +17,7 @@ import 'package:example_writer/layout_builder_example.dart';
 import 'package:example_writer/opacity_example.dart';
 import 'package:example_writer/pageview_example.dart';
 import 'package:example_writer/positioned_example.dart';
+import 'package:example_writer/repaint_boundary_example.dart';
 import 'package:example_writer/sliver_app_bar_example.dart';
 import 'package:example_writer/sliver_grid_example.dart';
 import 'package:example_writer/sliver_list_example.dart';
@@ -26,10 +27,12 @@ import 'package:example_writer/tooltip_example.dart';
 import 'package:example_writer/transform_example.dart';
 import 'package:example_writer/wrap_example.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 
 
 void main() async{
+  debugRepaintRainbowEnabled = true;
   runApp(const MyApp());
 }
 
@@ -42,7 +45,8 @@ class MyApp extends StatelessWidget {
       title: 'Widgets',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-      ),home: const PositionedExample(),
+      ),home: const RepaintBoundaryExample
+      (),
     );
   }
 }
