@@ -15,7 +15,7 @@ This repository presents a bunch of flutter widgets providing a short explanatio
   - [Semantics](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
 - ### Animation and Motion
   - [AnimatedAlign](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
-  - [AnimatedBuilder](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
+  - [AnimatedBuilder](https://github.com/TheUltimateOptimist/Widgets/blob/master/AnimatedBuilder.md)
   - [AnimatedContainer](https://github.com/TheUltimateOptimist/Widgets/blob/master/AnimatedContainer.md)
   - [AnimatedCrossFade](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
   - [AnimatedDefaultTextStyle](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
