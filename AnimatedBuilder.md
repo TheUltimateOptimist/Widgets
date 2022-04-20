@@ -4,7 +4,7 @@
   It is a general-purpose widget for building animations being useful for more complex widgets that wish to include an animation as part of a larger build function.
 
 - ## View Docs:
-  [Align](https://api.flutter.dev/flutter/widgets/AnimatedBuilder-class.html)
+  [AnimatedBuilder](https://api.flutter.dev/flutter/widgets/AnimatedBuilder-class.html)
   
 - ## Example Code:
   [View on Github](https://github.com/TheUltimateOptimist/Widgets/blob/master/example_writer/lib/animated_builder_example.dart)
