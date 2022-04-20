@@ -4,7 +4,7 @@
   It controls where a child of a Stack is positioned.
 
 - ## View Docs:
-  [Align](https://api.flutter.dev/flutter/widgets/Positioned-class.html)
+  [Positioned](https://api.flutter.dev/flutter/widgets/Positioned-class.html)
 
 - ## Nice to know:
   - If you want a widget to fill the whole `Stack` you can use the `Positioned.fill()` constructor.
