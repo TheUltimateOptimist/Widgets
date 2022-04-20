@@ -6,6 +6,7 @@ import 'package:example_writer/animated_container_example.dart';
 import 'package:example_writer/animated_opacity_example.dart';
 import 'package:example_writer/backdrop_filter_example.dart';
 import 'package:example_writer/clip_r_rect_example.dart';
+import 'package:example_writer/dismissible_example.dart';
 import 'package:example_writer/fade_in_image_example.dart';
 import 'package:example_writer/fade_transition_example.dart';
 import 'package:example_writer/fitted_box_example.dart';
@@ -33,7 +34,7 @@ import 'package:flutter/services.dart';
 
 
 void main() async{
-  debugRepaintRainbowEnabled = true;
+  debugRepaintRainbowEnabled = false;
   runApp(const MyApp());
 }
 
@@ -46,8 +47,7 @@ class MyApp extends StatelessWidget {
       title: 'Widgets',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-      ),home: const AnimatedBuilderExample
-      (),
+      ),home: const DismissibleExample(),
     );
   }
 }
