@@ -4,7 +4,7 @@
   It creates a separate display list for its child, which can improve performance if the subtree repaints at different times than the surrounding parts of the tree.
 
 - ## View Docs:
-  [Align](https://api.flutter.dev/flutter/widgets/RepaintBoundary-class.html)
+  [RepaintBoundary](https://api.flutter.dev/flutter/widgets/RepaintBoundary-class.html)
 
 - ## Nice to know:
   - `RepaintBoundary`s have a small cpu and memeory cost, so when using it make sure it is really needed
