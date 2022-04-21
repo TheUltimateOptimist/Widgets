@@ -109,7 +109,7 @@ This repository presents a bunch of flutter widgets providing a short explanatio
     - [OverflowBox](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
     - [Padding](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
     - [Positioned](https://github.com/TheUltimateOptimist/Widgets/blob/master/Positioned.md)
-    - [SizedBox](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
+    - [SizedBox](https://github.com/TheUltimateOptimist/Widgets/blob/master/SizedBox.md)
     - [SizedOverflowBox](https://github.com/TheUltimateOptimist/Widgets/blob/master/NotCovered.md)
     - [Transform](https://github.com/TheUltimateOptimist/Widgets/blob/master/Transform.md)
   - #### Multi-Child layout widgets
