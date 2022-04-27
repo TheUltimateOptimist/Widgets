@@ -1,7 +1,7 @@
 # Flexible
 
 - ## What it does:
-  It controls how a child of a Row, Column, or Flex flexes.
+  It controls how a child of a `Row`, `Column`, or `Flex` flexes.
 
 - ## View Docs:
   [Flexible](https://api.flutter.dev/flutter/widgets/Flexible-class.html)
